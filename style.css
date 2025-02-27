@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+DE+VA+Guides&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    padding-right: 7px;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.items{
+    display: flex;
+    gap: 10px;
+}
+.items p{
+    padding: 10px 20px;
+}
+.signin button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.items p:hover{
+    cursor: pointer;
+    border-radius: 18px;
+    padding: 10px 20px;
+    background-color: rgb(213, 213, 213);
+}
+.signin button:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.signin button:nth-child(2):hover{
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+}
+
+.front{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.front h1{
+    font-size: 60px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.front, .front-item{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.front-item p{
+    font-size: 20px;
+}
+.front-item p:hover{
+    cursor: pointer;
+}
+.front-item i{
+    padding-right: 5px;
+}
+
+
+.search-item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.search-item i{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.search-item input{
+    width: 80%;
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.search-item button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 4px;
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+
+#nat{
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.4)),url("https://www.tourmyindia.com/states/rajasthan/image/best-places-to-visit-rajasthan.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+.nat-item{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.nat-item h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.nat-item p{
+    font-size: 20px;
+}
+.nat-item button{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+.trendcast-home{
+    width: 80%;
+    margin-top: 50px;
+}
+.trendcast{
+    padding: 20px 0px;
+}
+.trendcast h1{
+    font-size: 30px;
+    font-weight: 600
+}
+.trendcast p{
+    font-size: 17px
+}
+.trendcast-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.trendcast-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.trendcast-item img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-position: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.trendcast-item img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.trendcast-item p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.trendcast-item-para{
+    width: 80%;
+    text-align: center;
+}
+.trendcast-item-para i{
+    margin-top: 10px;
+    color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+.trendcast-item-para i:hover{
+    color: black;
+    cursor: pointer;
+    background-color: red;
+}
+.trendcast-item .ii{
+    margin-top: 10px;
+    color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 2px black;
+    position: absolute;
+    background-color: white;
+    top: 15px;
+    right: 15px;
+}
+.trendcast-item .ii:hover{
+    color: black;
+    cursor: pointer;
+    background-color: red;
+}
+
+
+.experience-home{
+    width: 80%;
+    margin-top: 50px;
+}
+.experience{
+    padding: 20px 0px;
+}
+.experience h1{
+    font-size: 30px;
+    font-weight: 600
+}
+.experience p{
+    font-size: 17px
+}
+.experience-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+    gap: 30px;
+}
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience-item img{
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    background-position: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.experience-item img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.experience-item p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.experience-item-para{
+    width: 100%;
+}
+
+#explore-section{
+    width: 100%;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-h1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.explore{
+    width: 80%;
+    margin: 10px 0px;
+}
+.explore-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.explore-item{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-item img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-position: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.explore-item img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.explore-item p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.explore-item-para{
+    width: 90%;
+    text-align: center;
+}
+
+
+
+
+
+.tour-home{
+    width: 80%;
+    margin-top: 50px;
+}
+.tour{
+    padding: 20px 0px;
+}
+.tour h1{
+    font-size: 30px;
+    font-weight: 600
+}
+.tour p{
+    font-size: 17px
+}
+.tour-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+    gap: 25px;
+}
+.tour-item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tour-item img{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tour-item img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.spon{
+    margin:30px 0px;
+    width: 80%;
+    background-color: #ecf0f1;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+}
+.spon-img img{
+    width: 600px;
+    height: 450px;
+    border-radius: 50px;
+}
+.spon-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px;
+}
+.spon-content i{
+    padding-right: 5px;
+}
+.spon-content p{
+    font-size: 18px;
+}
+.spon-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.spon-content button{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    transition: 0.6s;
+}
+.spon-content button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #ecf0f1;
+}
+.footer-content{
+    width: 80%;
+    display: flex;
+    padding: 30px 0;
+}
+.footer-head{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.footer-header{
+    display: flex;
+    gap: 40px;
+}
+.footer-header ul{
+    list-style: none;
+}
+.footer-header ul li{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 4px 0;
+}
+.footer-item{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+.footer-para{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.footer-body-content ul{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 4px 0;
+}
+
+.footer-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input select{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icon i{
+    font-size: 30px;
+    padding-left: 10px;
+}
